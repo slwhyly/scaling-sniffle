@@ -18,6 +18,9 @@ const Counter = sequelize.define("Counter", {
     allowNull: false,
     defaultValue: 1,
   },
+  todolist: {
+    type:DataTypes.INTEGER,
+  },
 });
 
 // 数据库初始化方法
